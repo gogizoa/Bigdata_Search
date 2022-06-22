@@ -1,0 +1,64 @@
+
+h	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¾Æÿÿÿÿÿ
+N
+java:S1854#"8Remove this useless assignment to local variable "file".(Üóò´
+?
+java:S1481#")Remove this unused "file" local variable.(Üóò´
+c	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ïú 
+@
+java:S1659."%Declare "fileNum" on a separate line.(ÀıÏºúÿÿÿÿ
+c	java:S100Q"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßØÉ±
+h
+java:S3776Q"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(ßØÉ±
+U	java:S899e";Do something with the "boolean" value returned by "delete".(Õ½Ç‹úÿÿÿÿ
+i
+java:S4042e"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(Õ½Ç‹úÿÿÿÿ
+W	java:S899h"=Do something with the "boolean" value returned by "renameTo".(ÿ´Õÿşÿÿÿÿ
+d	java:S100‘"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÿåË
+T
+java:S1854Ÿ"8Remove this useless assignment to local variable "file".(²´ç”şÿÿÿÿ
+E
+java:S1481Ÿ")Remove this unused "file" local variable.(²´ç”şÿÿÿÿ
+R	java:S125´"<This block of commented-out lines of code should be removed.(ù¦·‰
+j
+java:S4042µ"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(ê¤¬Âüÿÿÿÿ
+t
+java:S22935"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÙËÕîúÿÿÿÿ
+p
+java:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(äÂª
+p
+java:S2293½"YReplace the type specification in this constructor call with the diamond operator ("<>").(ß÷¶ô
+D
+java:S1604’"(Make this anonymous inner class a lambda(áêˆÁûÿÿÿÿ
+U
+java:S1155¢">Use isEmpty() to check whether the collection is empty or not.(İÃŸš
+m
+java:S1104»"QMake isEOF a static final constant or non-public and provide accessors if needed.(ÖÄòäùÿÿÿÿ
+h
+java:S1104½"QMake tuple a static final constant or non-public and provide accessors if needed.(ß÷¶ô
+G
+java:S1153T"1Directly append the argument of String.valueOf().(˜Ãöá
+G
+java:S1153X"1Directly append the argument of String.valueOf().(¶©¿‹
+G
+java:S1153b"1Directly append the argument of String.valueOf().(—šÕÕ
+G
+java:S1153c"1Directly append the argument of String.valueOf().(€å
+G
+java:S1153u"1Directly append the argument of String.valueOf().(—šÕÕ
+H
+java:S1153ƒ"1Directly append the argument of String.valueOf().(—šÕÕ
+H
+java:S1153Œ"1Directly append the argument of String.valueOf().(—šÕÕ
+]
+java:S2259‰"AA "NullPointerException" could be thrown; "dos" is nullable here.(‚ùûÿÿÿÿ
+\
+java:S2259{"AA "NullPointerException" could be thrown; "dos" is nullable here.(‚ùûÿÿÿÿ
+h
+java:S2095-"MUse try-with-resources or close this "DataInputStream" in a "finally" clause.(§óÙ³ûÿÿÿÿ
+d
+java:S2095$"NUse try-with-resources or close this "DataOutputStream" in a "finally" clause.(…‘ñØ
+e
+java:S2095¡"NUse try-with-resources or close this "DataOutputStream" in a "finally" clause.(’Ö‰„
+=
+java:S21893""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
